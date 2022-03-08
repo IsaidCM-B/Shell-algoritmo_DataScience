@@ -11,7 +11,7 @@ int main(){
     int Num;
     cout<<"Ingrese dimension del arreglo : ";
     cin>>Num;
-    LeerArreglo(Num);
+    LeerArreglo(Num);//En este espacio agregue unc comentario
     Shell(Num);
     cout<<endl;
     EscribeArreglo(Num);
