@@ -1,5 +1,4 @@
 #include<iostream>
-#include<conio.h>
 
 using namespace std;
 int Arreglo[100];
@@ -11,7 +10,7 @@ int main(){
     int Num;
     cout<<"Ingrese dimension del arreglo : ";
     cin>>Num;
-    LeerArreglo(Num);//En este espacio agregue unc comentario
+    LeerArreglo(Num);
     Shell(Num);
     cout<<endl;
     EscribeArreglo(Num);
@@ -58,3 +57,4 @@ void Shell(int Numero){
         incremento=incremento/2;
     }
 }
+
